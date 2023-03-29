@@ -142,7 +142,7 @@ coroutine.wrap(
 coroutine.wrap(
     function()
         wait(15)
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/theplayer8000/Client-X/main/serverHop.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/IVV9M/autotrain/main/serverhop"))()
 
         while task.wait() do
             if
